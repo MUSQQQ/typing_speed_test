@@ -1,9 +1,9 @@
 ## Typing speed checker.
 To run type in CLI 
 ```
-python type_speed_test.py'
+python typing_speed_test.py'
 ```
-From_file.py contains a function for reading from a .txt file.
+from_file.py contains a function for reading from a .txt file.
 .txt file contains sentences that You are supposed to type in. Most of them are from games:
 - NieR:Automata
 - The World End With You
