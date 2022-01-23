@@ -1,7 +1,9 @@
 ## Typing speed checker.
 To run type in CLI 
 ```
-python typing_speed_test.py'
+>pip install tkinter
+>pip install timeit
+>python typing_speed_test.py'
 ```
 from_file.py contains a function for reading from a .txt file.
 .txt file contains sentences that You are supposed to type in. Most of them are from games:
