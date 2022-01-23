@@ -10,3 +10,4 @@ From_file.py contains a function for reading from a .txt file.
 - God Eater
 - Bayonetta 1/2
 Program starts the timer when You type first character in the input field and stops when You click 'Enter'.
+You are not allowed to submit empty input unless You previously wrote something and deleted it.
