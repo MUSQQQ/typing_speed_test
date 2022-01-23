@@ -51,7 +51,7 @@ def game():
         acc /= len(phrases_array[word])-1
         global_session_average_accuracy = ((global_tries_counter-1)*global_session_average_accuracy+acc)/global_tries_counter
         global_session_average_time = ((global_tries_counter-1)*global_session_average_time+time)/global_tries_counter
-        global_session_average_cps = ((global_session_average_cps-1)*global_session_average_cps+cps)/global_tries_counter
+        global_session_average_cps = ((global_tries_counter-1)*global_session_average_cps+cps)/global_tries_counter
         refresh_stats()
         show_current_try_stats(time, acc, cps)
  
